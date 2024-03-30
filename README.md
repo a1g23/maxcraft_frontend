@@ -9,9 +9,9 @@ Deployed Link:
 ## List of Dependencies
 
 - React
+- VITE
 - React Router
 - Milligram
-- 
 
 ## User Stories
 
