@@ -13,7 +13,7 @@ const router = createBrowserRouter(createRoutesFromElements(
         <Route path="" element={<Index />} loader={indexLoader}/>
         <Route path="/:id" element={<Show />} loader={showLoader}/>
         <Route path="update/:id" element={<Update />} loader={showLoader}/>
-        <Route path="new" element={<Create />} action="create"/>
+        <Route path="new" element={<Create />}/>
         <Route path="" action='update'/>
         <Route path="" action='delete'/>
     </Route>
