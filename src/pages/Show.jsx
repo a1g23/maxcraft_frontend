@@ -1,6 +1,14 @@
+import { useLoaderData } from "react-router-dom"
+
 const Show = (props) => {
+    const product = useLoaderData()
+
     return(
-        <h1>Show Page</h1>
+        <div>
+            <h4>{product.type}</h4>
+        </div>
+        
+
     )
 }
 
