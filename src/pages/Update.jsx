@@ -1,4 +1,5 @@
 import { useLoaderData, Form } from "react-router-dom"
+import Header from "../components/Header"
 
 const Update = (props) => {
     const product = useLoaderData()
@@ -6,6 +7,7 @@ const Update = (props) => {
 
     return(
         <div>
+            <Header />
             <h1>Update {product.type}..</h1>
             
             <Form action={`/update/${id}/`} method="POST">

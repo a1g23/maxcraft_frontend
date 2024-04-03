@@ -17,6 +17,7 @@ const Index = (props) => {
                         
                         <Link to={v?.url.split("/")[4]}>
                             <h4>{v.type}</h4>
+                            <img src={v.image} width="300" ></img>
                         </Link>
                              
                         

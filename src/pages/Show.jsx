@@ -1,4 +1,5 @@
 import { useLoaderData, Form, Link } from "react-router-dom"
+import Header from "../components/Header"
 
 const Show = (props) => {
     const product = useLoaderData()
@@ -6,6 +7,7 @@ const Show = (props) => {
 
     return(
         <div>
+            <Header />
             <h4>{product.type}</h4>
             <img src={product.image} alt="product image"></img>
 
