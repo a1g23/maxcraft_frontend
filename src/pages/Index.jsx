@@ -1,4 +1,5 @@
 import { useLoaderData, Link } from "react-router-dom"
+import Header from "../components/Header"
 
 const Index = (props) => {
     const allProducts = useLoaderData()
@@ -6,6 +7,7 @@ const Index = (props) => {
 
     return(
         <div>
+            <Header />
             <h1>All Products</h1>
             {allProducts.map(v => {
                 
