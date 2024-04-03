@@ -11,7 +11,7 @@ const Create = (props) => {
                     <input type="text" id="image" name="image" placeholder="image"/>
                     <input type="text" id="size" name="size" placeholder="size"/>
                     <input type="number" id="price" name="price" placeholder="price"/>
-                    <button>New</button>
+                    <button>Add to Inventory</button>
             </Form>
 
         </div>

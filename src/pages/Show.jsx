@@ -7,7 +7,8 @@ const Show = (props) => {
     return(
         <div>
             <h4>{product.type}</h4>
-            
+            <img src={product.image} alt="product image"></img>
+
             {/* we want this to truly delete */}
             <Form action={`/delete/${id}/`} method="POST">
                 <button>Delete</button>
