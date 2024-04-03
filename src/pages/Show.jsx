@@ -8,11 +8,13 @@ const Show = (props) => {
         <div>
             <h4>{product.type}</h4>
             
+            {/* we want this to truly delete */}
             <Form action={`/delete/${id}/`} method="POST">
                 <button>Delete</button>
             </Form>
             
-            <Link to={`/update/${id}/`}>
+            {/* we want this to got to the update page */}
+            <Link to={`/edit/${id}/`}>
                 <button>Update</button>
             </Link>
         </div>
