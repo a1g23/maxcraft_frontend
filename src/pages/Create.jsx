@@ -4,8 +4,9 @@ import Header from '../components/Header'
 const Create = (props) => {
     return(
         <div>
-
-            <Header />
+            <div className="header-container">
+                <Header />
+            </div>
             <h1>add a new product..</h1>
             <Form action={`/create/`} method="POST">
                     <input type="text" id="type" name="type" placeholder="type"/>

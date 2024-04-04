@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50%;
+}

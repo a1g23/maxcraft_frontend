@@ -7,19 +7,23 @@ const Show = (props) => {
 
     return(
         <div>
-            <Header />
+            <div className="header-container">
+                <Header />
+            </div>
             <h4>{product.type}</h4>
             <img src={product.image} alt="product image"></img>
 
             {/* we want this to truly delete */}
-            <Form action={`/delete/${id}/`} method="POST">
-                <button>Delete</button>
-            </Form>
-            
-            {/* we want this to got to the update page */}
-            <Link to={`/edit/${id}/`}>
-                <button>Update</button>
-            </Link>
+            <div className="container">
+                <Form action={`/delete/${id}/`} method="POST">
+                    <button>Delete</button>
+                </Form>
+                
+                {/* we want this to got to the update page */}
+                <Link to={`/edit/${id}/`}>
+                    <button>Update</button>
+                </Link>
+            </div>
         </div>
         
 

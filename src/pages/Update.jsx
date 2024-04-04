@@ -7,7 +7,9 @@ const Update = (props) => {
 
     return(
         <div>
-            <Header />
+            <div className="header-container">
+                <Header />
+            </div>
             <h1>Update {product.type}..</h1>
             
             <Form action={`/update/${id}/`} method="POST">
