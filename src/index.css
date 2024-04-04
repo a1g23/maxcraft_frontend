@@ -5,6 +5,7 @@
 }
 
 .header-container {
+    margin-bottom: 18vh;
     display: flex;
     justify-content: flex-end;
     gap: 50%;
@@ -19,9 +20,20 @@
 }
 
 h1 {
-    color: black
+    color: black;
+    left: 25vh;
 }
 h4 {
 
     color: green;
+}
+
+.container-ham {
+    position: relative;
+}
+
+.hamburger-content {
+    position: absolute;
+    right: 15px;
+    width: 25vh;
 }

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Hamburger = () => {
 
     return(
-        <div className="">
+        <div className="hamburger-content">
             <div>
                 <Link to={'/'}>
                     <h4>all products</h4>

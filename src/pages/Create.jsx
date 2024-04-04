@@ -1,5 +1,6 @@
 import { Form } from 'react-router-dom'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Create = (props) => {
     return(
@@ -15,6 +16,7 @@ const Create = (props) => {
                     <input type="number" id="price" name="price" placeholder="price"/>
                     <button>Add to Inventory</button>
             </Form>
+            <Footer />
 
         </div>
 

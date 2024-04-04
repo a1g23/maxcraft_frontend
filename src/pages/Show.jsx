@@ -1,5 +1,6 @@
 import { useLoaderData, Form, Link } from "react-router-dom"
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 
 const Show = (props) => {
     const product = useLoaderData()
@@ -28,6 +29,7 @@ const Show = (props) => {
                     <button>Update</button>
                 </Link>
             </div>
+            <Footer />
         </div>
         
 
