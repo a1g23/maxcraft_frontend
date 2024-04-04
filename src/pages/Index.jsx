@@ -1,5 +1,6 @@
 import { useLoaderData, Link } from "react-router-dom"
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 
 const Index = (props) => {
     const allProducts = useLoaderData()
@@ -23,6 +24,7 @@ const Index = (props) => {
                     )
                 })}
             </div>
+            <Footer />
         </div>
         
     )

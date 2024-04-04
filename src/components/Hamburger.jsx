@@ -6,14 +6,14 @@ const Hamburger = () => {
         <div className="">
             <div>
                 <Link to={'/'}>
-                    <h3>all products</h3>
+                    <h4>all products</h4>
                 </Link>
                 <Link to={'/new/'}>
-                    <h3>add a product</h3>
+                    <h4>add a product</h4>
                 </Link>
                 {/* this will link to the login page */}
                 <Link to={'/'}>
-                    <h3>logout</h3>
+                    <h4>logout</h4>
                 </Link>
                 
             </div>

@@ -11,7 +11,11 @@ const Show = (props) => {
                 <Header />
             </div>
             <h4>{product.type}</h4>
-            <img src={product.image} alt="product image"></img>
+            <img src={product.image} width={300} alt="product image"></img>
+            <div className="container">
+                <h4>Size: {product.size} // </h4>
+                <h4>Price: ${product.price}</h4>
+            </div>
 
             {/* we want this to truly delete */}
             <div className="container">
