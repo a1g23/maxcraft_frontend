@@ -8,7 +8,7 @@ const Index = (props) => {
     return(
         <div>
             <Header />
-            <h1>All Products</h1>
+            <h1>all products..</h1>
             {allProducts.map(v => {
                 
                 return (

@@ -9,7 +9,7 @@ const Header = () => {
         setHamburgerOpen(!hamburgerOpen)
     }
     return(
-        <div>
+        <div className="hamburger">
             {!hamburgerOpen && 
             <div className="hamburger-svg">
                 <svg width="25px" height="25px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000000" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)" onClick={()=>{toggleMenu()}}>
